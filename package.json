@@ -1,0 +1,16 @@
+{
+  "name": "ami",
+  "version": "1.0.0",
+  "description": "Un ami IA a qui parler par chat, propulse par l'API Claude d'Anthropic.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  }
+}

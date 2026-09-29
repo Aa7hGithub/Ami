@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ami</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="avatar">A</div>
+      <div class="header-text">
+        <h1>Ami</h1>
+        <p class="status" id="status">en ligne</p>
+      </div>
+      <button class="reset-btn" id="reset-btn" title="Nouvelle conversation">Nouvelle conversation</button>
+    </header>
+
+    <main class="chat" id="chat"></main>
+
+    <form class="composer" id="composer">
+      <input
+        type="text"
+        id="message-input"
+        placeholder="Ecris un message..."
+        autocomplete="off"
+      />
+      <button type="submit" id="send-btn">Envoyer</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
